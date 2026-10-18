@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Raghid Muri</title>
+</head>
+
+<body>
+
+   <!-- Header -->
+  <header>
+    <h1>Raghid Muri</h1>
+
+    <p id="greeting"></p>
+
+    <!-- Navigation links jump to sections on the same page -->
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main portfolio content -->
+  <main>
+
+
+    <!-- About Me section -->
+    <section id = "about"> 
+      <h3>
+        About Me
+      </h3>
+
+      <p>Computer Science student exploring cybersecurity and secure systems.</p>
+        
+      <div> 
+        I am a junior <em>Computer Science</em> student at <strong>KFUPM</strong> with a strong interest in cybersecurity. I enjoy learning about security concepts, exploring how systems work, and developing my technical skills through hands-on practice.
+      </div>
+    </section>
+
+    <!-- Projects section -->
+     <!-- Each project is kept as a separate article -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="projects-container">
+
+        <article class="project-card">
+          <img
+            class="project-image"
+            src="./assets/images/suricata-log.jpg"
+            alt="Suricata logs showing network security alerts"
+          >
+          <h3>Homemade IDPS</h3>
+          <p>
+            Built and tested a simple network intrusion detection system using
+            Suricata on an Ubuntu Linux virtual machine. I created custom rules to
+            detect ICMP traffic, generated test traffic, and analyzed Suricata alerts.
+          </p>
+        </article>
+
+
+
+        <article class="project-card">
+          <img
+            class="project-image"
+            src="./assets/images/integritychecksum.png"
+            alt="Terminal output showing a file integrity check with SHA-256 hashes"
+          >
+          <h3>File Integrity Checker</h3>
+          <p>
+            Built a simple file integrity checker that uses cryptographic hashes to
+            detect whether files have been modified. The program compares a file's
+            current hash with a previously stored value and reports any changes.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Contact form -->
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Raghid Muri</p>
+  </footer>
+
+
+<script src="js/script.js"></script>
+</body>
+
+</html>

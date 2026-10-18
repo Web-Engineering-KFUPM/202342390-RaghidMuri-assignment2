@@ -1,0 +1,76 @@
+/* General page styling */
+
+body {
+  background-color: #101826;
+  color: #9aa4b2;
+  font-family: monospace;
+  
+  margin: 0;
+  padding: 0 32px;
+
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  color: #f5f7fa;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Links */
+a {
+  color: #9ca3af;
+}
+a:hover {
+  color: #f3f4f6;
+}
+
+/* Header and navigation */
+header {
+  padding: 32px 0;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+
+/* Main sections */
+
+section {
+  margin-bottom: 41px;
+}
+
+/* Projects */
+
+/* Use Flexbox to stack projects vertically with consistent spacing */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.project-card {
+  padding: 6px 0;
+}
+
+#projects h2 {
+  margin-bottom: 30px;
+}
+
+
+
+/* Keep project images responsive so they shrink on smaller screens */
+
+.project-image {
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
