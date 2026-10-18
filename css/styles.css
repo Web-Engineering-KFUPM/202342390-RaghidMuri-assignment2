@@ -24,6 +24,7 @@ h3 {
 /* Links */
 a {
   color: #9ca3af;
+  transition: color 0.7s;
 }
 a:hover {
   color: #f3f4f6;
