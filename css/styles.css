@@ -59,6 +59,11 @@ section {
   padding: 6px 0;
 }
 
+/* Hide project descriptions until the user clicks the button */
+.project-description {
+  display: none;
+}
+
 #projects h2 {
   margin-bottom: 30px;
 }
