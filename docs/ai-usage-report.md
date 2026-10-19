@@ -6,39 +6,53 @@ I used ChatGPT while working on this assignment.
 
 I mainly used it for:
 
-- Generating small parts of HTML, CSS, and JavaScript
-- Explaining HTML and CSS concepts I found confusing
-- Debugging issues with image paths and layout
-- Giving UI design ideas
-- Helping organize the project structure and indentation
-- Helping write documentation
+- Helping implement the new interactive features
+- Explaining JavaScript concepts I found confusing
+- Helping add the Show/Hide Description feature
+- Helping add contact form validation
+- Helping add user feedback messages
+- Giving suggestions for simple animations and transitions
+- Debugging HTML, CSS, and JavaScript issues
+- Reviewing the project structure
+- Helping improve the README and technical documentation
 
-For example, I used ChatGPT to understand how to add a greeting based on the time of day, when to use div vs article, and how to fix problems with images not loading correctly.
+For example, I used ChatGPT to understand how event listeners work, how to show and hide content when a button is clicked, how to prevent a form from reloading the page, and how to validate form input using JavaScript.
 
 ## Benefits & Challenges
 
-Using ChatGPT helped me work faster and understand some concepts better. It was useful when I was unsure about HTML structure, CSS properties, or how to organize parts of the portfolio.
+Using ChatGPT helped me understand the new JavaScript features faster and gave me ideas for how to make the portfolio more interactive without making it too complicated.
 
-One challenge was that some suggestions did not always match the design I wanted. I sometimes had to reject or change suggestions because they looked too generic or did not fit the style I was trying to create. I also had to check the code myself instead of assuming every suggestion was correct.
+It was especially useful when I needed explanations for how different parts of the code worked, such as `event.preventDefault()`, button click events, and checking form input.
+
+One challenge was that some suggestions were more complicated than what I wanted for my website. I sometimes had to simplify or reject suggestions so the project stayed close to my original design.
+
+I also had to test the code myself because not every suggestion automatically matched the structure of my existing Assignment 1 project.
 
 ## Learning Outcomes
 
 While using AI, I learned more about:
 
-- Flexbox and how it affects layout
-- Basic responsive design
-- CSS spacing and colors
-- Using JavaScript to change content on the webpage
-- Organizing a web project into separate HTML, CSS, JavaScript, and asset folders
+- JavaScript event listeners
+- Showing and hiding webpage content
+- Changing button text using JavaScript
+- Form validation
+- Giving users error and success messages
+- Preventing the default form submission behavior
+- Using CSS transitions for hover effects
+- Improving an existing project instead of starting from scratch
 
-I also became more comfortable debugging small problems instead of only copying code.
+I also became more comfortable understanding how HTML, CSS, and JavaScript work together to create interactive behavior.
 
 ## Responsible Use & Modifications
 
-I reviewed the AI-generated suggestions before using them and changed them to fit my own project.
+I reviewed the AI-generated suggestions before adding them to my project and changed them when needed.
 
-I did not use every suggestion exactly as it was given. For example, I changed the original design ideas, colors, spacing, project layout, and some HTML structure based on my own preferences.
+I did not use every suggestion exactly as it was given. For example, I chose to hide the existing project descriptions instead of adding completely new project details, because that matched my design better.
 
-I also tested the website by resizing the browser, checking image paths, and making sure the JavaScript feature worked correctly.
+I also kept the animation simple by using a navigation link color transition instead of adding more complicated effects.
 
-The AI was used as a helper, but I made the final decisions and modifications myself.
+For the contact form, I tested different cases such as empty fields, invalid email input, and valid input to make sure the feedback messages worked correctly.
+
+I also asked for explanations when I did not understand parts of the code before using them.
+
+The AI was used as a support tool, but I made the final decisions, tested the features, and modified the code to fit my own project.
