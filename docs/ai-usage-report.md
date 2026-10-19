@@ -76,3 +76,17 @@ I declare that this report and the attached evidence document all of my AI use i
 **Name:** Raghid Muri  
 **Student ID:** 202342390  
 **Date:** 2026-10-19  
+
+
+## AI-Assisted Commits
+
+The following Assignment 2 commits contained AI-assisted work:
+
+- `9830149` - Added Buttons For Project Description
+- `79fc984` - Added Form Validation and FeedBack
+- `dfd86b2` - Added hover animation for links
+- `24505da` - ReadMe and technical documentation
+- `05d9ee5` - AI Usage Report
+- `51162d2` - Ai usage report updated
+
+These commits were created before the updated AI declaration requirement was announced. The repository does not allow force-pushing, so the existing commit messages could not be rewritten. The AI-assisted work is documented in the Usage Log above.
